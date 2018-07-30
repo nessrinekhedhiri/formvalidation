@@ -1,0 +1,92 @@
+body  {
+    background: url(cc.jpg);
+} 
+h3{
+    margin-left: 148px;
+    font-size: 35px;
+    font-style: italic;
+    color:white;
+}
+#name {
+background-color: white;
+border: none;
+color: black;
+padding: 15px 320px;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 150px;
+}
+
+#name {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 15px 320px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 150px;
+    }
+    #adresse {
+        background-color: white;
+        border: none;
+        color: black;
+        padding: 15px 320px;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 150px;
+        }
+        #email {
+            background-color: white;
+            border: none;
+            color: black;
+            padding: 15px 320px;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 150px;
+            }
+ #password{
+ background-color: white;
+ border: none;
+ color: black;
+ padding: 15px 320px;
+text-decoration: none;
+ display: inline-block;
+font-size: 16px;
+margin: 4px 150px;
+ }
+ #send{
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 15px 320px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 150px;
+    background-color: aquamarine;
+    } 
+    #reset{
+        background-color: white;
+        border: none;
+        color: black;
+        padding: 15px 320px;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 150px;
+        background-color: aquamarine;
+        }
+        #comm{
+            background-color: white;
+            border: none;
+            color: black;
+            padding: 70px 320px;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 150px;
+            }                

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+<meta charset="UTF-8">
+<title>Javascript form validation</title>
+<link rel="stylesheet" href="formvalidation.css">
+</head>
+ <body>
+  <form action="#" method="post" onsubmit="return validation();">
+   <h3>Name:</h3><input type="text" placeholder = "tapez votre nom.."name="name" id="name">
+   <h3>Adresse:</h3><input type="text" placeholder = "tapez votre adresse.."name="adresse" id="adresse">
+   <h3>Email:</h3><input type="email"placeholder = "Tapez votre email.." name="email" id="email"></td></tr>
+   <h3>Password:</h3><input type="password"  placeholder = "Taper votre password.." name="password" id="password">
+   <h3>Comments:</h3> <textarea id="comm"> </textarea>
+    <input type="submit"id="send" name="submit" value="send">
+    <input type="reset" id="reset"value="Reset">
+ </body>
+ 
+ <script type="text/javascript">
+    function validation(){
+    var name = document.getElementById('name').value;
+    var email = document.getElementById('email').value;
+    var password = document.getElementById('password').value;
+    var adresse = document.getElementById('adresse').value;
+    var re =/(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}/;
+
+    if(name=='' || password=='' || email=='' | adresse=='')
+    {
+        alert('please enter all required fields');
+       
+    }
+    else if (!re.test(password))
+    alert('Password Must Be Atleast 8 characters or  must be a combination of charatacters , numbers and at least a capital lette');
+    else
+        alert('saved')
+    }
+       
+    </script>
+ </html>
